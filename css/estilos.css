@@ -30,7 +30,7 @@ body {
 #im2 {
 	 position: absolute;
 	 margin-top: 300px;
-	 margin-left: -90px;
+	 margin-left: -130px;
 }
 
 h1 {
@@ -74,7 +74,10 @@ div .menu2 {
 	padding: 15px 24px;
 	margin-top: -14px;
 	margin-left: 20px;
-	border: 1px solid white;
+	border: 1.4px solid white;
+	border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
 }
 
 #space {
@@ -147,15 +150,19 @@ header nav li a {
 }
 
 .btn {
+	font-weight: bold;
     background-color: orange;
     color: black;
-    padding: 15px 32px;
+    padding: 20px 53px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 22px;
     margin: 4px 2px;
     cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
 }
 
 .btn:hover {
@@ -196,15 +203,119 @@ header nav li a {
     border-bottom: #1e959d 2px solid;
 }
 
+.container3 {
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 100px;
+	background-color: #2d2f30; 
+    position: absolute;
+    height: 415px;
+    top: 1200px;
+    left: 0; 
+    width: 100%;
+    z-index: 0;
+}
+
+.container3 h3 {
+	font-size: 23px;
+	font-weight: bold;
+	color: white;
+	margin-bottom: 30px;
+}
+
+.container3 p {
+	font-size: 16px;
+	color: white;
+	padding: 0 50px;
+	margin-bottom: 40px;
+}
+
+#im3 {
+	 margin-bottom: 40px;
+}
+
+#im4 {
+	 margin-bottom: 80px;
+}
+
+#im5 {
+	 margin-bottom: 30px;
+}
+
+.btn2 {
+	position: absolute;
+	top: 450px;
+	left: 44%; 
+	font-weight: bold;
+    background-color: orange;
+    color: black;
+    padding: 18px 43px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.btn2:hover {
+	background: gray;
+	cursor: pointer; 
+	transition: background .3s;  
+}
+
+.feature-1 {
+	float:left;
+	margin-left: 5%;
+}
+
+.feature-2 {
+	float:left;
+}
+
+.feature-3 {
+	float:left;
+}
+
+.clearfix {
+	clear: both;
+}
+
 #Contactos {
     text-align: center;
     position: absolute;
-	top: 1200px;
+	top: 2000px;
 	left: 0; 
     width: 100%;
     z-index: 0;
 
 }
+
+@media (max-width: 900px) {
+	.container h2 {
+		font-size: 70px;
+		padding: 0 40px;
+	}
+	.container p {
+		font-size: 35px;
+		padding: 0 30px;
+	}
+
+	.container2 h2 {
+		font-size: 40px;
+		padding: 0 30px;
+	}
+	.container2 p {
+		font-size: 20px;
+		padding: 0 40px;
+	}
+
+	
+}
+
 
 @media (max-width: 500px) {
 	.container h2 {
@@ -213,6 +324,16 @@ header nav li a {
 	}
 	.container p {
 		font-size: 20px;
+		padding: 0 30px;
+	}
+
+	.container2 h2 {
+		font-size: 30px;
+		padding: 0 30px;
+	}
+
+	.container2 p {
+		font-size: 15px;
 		padding: 0 30px;
 	}
 
