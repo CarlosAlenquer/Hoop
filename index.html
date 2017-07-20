@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <script src="js/slideshow.js"></script>
   <link rel='stylesheet' type='text/css' href='css/reset.css'/>
   <link rel='stylesheet' type='text/css' href='css/estilos.css'/>
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway"/>
@@ -86,27 +87,38 @@
 
 
     <section id="testemunhos">
-      <h2>Passa-a-palavra</h2>
-      <article id="testemunho_0">
-        <img src="../images/Catarina.png" alt="Fotografia da Catarina">
-        <p>”(...) Sem dúvida que a hoop veio abanar o mercado criativo!”</p>
-        <p>Catarina</p>
-        <p>Lisboa</p>
-      </article>
+  
+      <h2><span class="under">Passa-a-palavra</span></h2>
+      <div class="container4">
+        <div class="mySlides fade">
+			     <article id="testemunho_1">
+            <img id="test1" src="./images/Catarina.png" alt="Testemunho da Catarina" height="150" width="150">
+            <p id="aux">”Sem dúvida que a hoop veio abanar o mercado criativo!”</p>
+            <h3>Catarina | Developer</h3>
+		       </article>
+        </div>
 
-      <article id="testemunho_1">
-        <img src="../images/maria.png" alt="Testemunho Maria">
-        <p>”Trabalho com equipas super diferentes”</p>
-        <p>Maria Silva</p>
-        <p>Cascais</p>
-      </article>
+        <div class="mySlides fade">
+		      <article id="testemunho_2">
+            <img id="test1" src="./images/Catarina.png" alt="Testemunho da Maria" height="150" width="150">
+            <p id="aux">”Trabalho com equipas super diferentes”</p>
+            <h3>Maria Silva | Designer</h3>
+		      </article>
+        </div>
 
-      <article id="testemunho_2">
-        <img src="../images/antonio.png" alt="Testemunho António">
-        <p>”Sem dúvida a forma mais simples e rápida de construir novas ideias”</p>
-        <p>António Ribeiro</p>
-        <p>Oeiras</p>
-      </article>
+        <div class="mySlides fade">
+		      <article id="testemunho_3">
+            <img id="test1" src="./images/Catarina.png" alt="Testemunho do António" height="150" width="150">
+            <p id="aux">”É a forma mais simples e rápida de construir novas ideias”</p>
+            <h3>António Ribeiro | Arquiteto</h3>
+		      </article>
+        </div>
+
+        <script>showSlides(1)</script>
+        <a class="prev" onclick="plusSlides(-1)"><img src="./images/arrowLeft.png" height="25" width="25"></a>
+        <a class="next" onclick="plusSlides(1)"><img src="./images/arrowRight.png" height="25" width="25"></a>
+      </div>
+
     </section>
 
 
