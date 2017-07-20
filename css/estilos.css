@@ -243,9 +243,6 @@ header nav li a {
 }
 
 .btn2 {
-	position: absolute;
-	top: 450px;
-	left: 44%; 
 	font-weight: bold;
     background-color: orange;
     color: black;
@@ -268,16 +265,18 @@ header nav li a {
 }
 
 .feature-1 {
-	float:left;
-	margin-left: 5%;
+
+	display: inline-block;
 }
 
 .feature-2 {
-	float:left;
+
+	display: inline-block;
 }
 
 .feature-3 {
-	float:left;
+	
+	display: inline-block;
 }
 
 .clearfix {
