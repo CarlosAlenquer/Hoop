@@ -6,31 +6,14 @@ html, body {
 body {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 100;
-	background-color: black;
 }
 
-#heroimage {
-    background: url(../images/heroimage.jpg) no-repeat center center; 
-    background-size: cover;
-    height: 800px;
-    text-align: center;
-    position: absolute;
-    top: 0;
-    left: 0; 
-    width: 100%;
-    z-index: 0;
-}
+/* CSS do header */
 
 #im {
-	 margin-left: 80%;
-	 position: absolute;
-	 margin-top: -14px;
-}
-
-#im2 {
-	 position: absolute;
-	 margin-top: 300px;
-	 margin-left: -130px;
+	margin-left: 80%;
+	position: absolute;
+	margin-top: -14px;
 }
 
 h1 {
@@ -41,7 +24,7 @@ h1 {
 	width: 137px;
 	margin-left: 30px;
 }
- 
+
 h1 a {
 	display : block;
 	height : 113px;
@@ -76,23 +59,23 @@ div .menu2 {
 	margin-left: 20px;
 	border: 1.4px solid white;
 	border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
 }
 
 #space {
- 	margin-left: 16%;
- 	margin-top: -18px;
+	margin-left: 16%;
+	margin-top: -18px;
 }
 
 #space1 {
- 	margin-left: 5%;
+	margin-left: 5%;
 }
 
 #space2 {
- 	position: absolute;
- 	margin-left: 75%;
- 	margin-top: -15px;
+	position: absolute;
+	margin-left: 75%;
+	margin-top: -15px;
 }
 
 header {
@@ -127,18 +110,40 @@ header nav li a {
 	text-decoration: none;
 }
 
+/* end do CSS do header */
+
+/* CSS da heroimage */
+
+#heroimage {
+	background: url(../images/heroimage.jpg) no-repeat center center; 
+	background-size: cover;
+	height: 800px;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	left: 0; 
+	width: 100%;
+	z-index: 0;
+}
+
+#im2 {
+	position: absolute;
+	margin-top: 300px;
+	margin-left: -130px;
+}
+
 .container h2 {
 	font-size: 90px;
 	margin-bottom: 60px;
 	margin-top: 50px;
-	}
+}
 
 .container p {
 	font-size: 32px;
 }
 
 .container {
- 	position: relative;
+	position: relative;
 	top: 200px;
 	color: white;
 
@@ -151,18 +156,18 @@ header nav li a {
 
 .btn {
 	font-weight: bold;
-    background-color: orange;
-    color: black;
-    padding: 20px 53px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 22px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
+	background-color: orange;
+	color: black;
+	padding: 20px 53px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 22px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
 }
 
 .btn:hover {
@@ -171,15 +176,19 @@ header nav li a {
 	transition: background .3s;  
 }
 
+/* end do CSS da heroimage */
+
+/* CSS para o produto */
+
 .container2 {
 	background-color: white; 
-    text-align: center;
-    position: absolute;
-    height: 400px;
-    top: 800px;
-    left: 0; 
-    width: 100%;
-    z-index: 0;
+	text-align: center;
+	position: absolute;
+	height: 400px;
+	top: 800px;
+	left: 0; 
+	width: 100%;
+	z-index: 0;
 }
 
 .container2 h2 {
@@ -200,20 +209,24 @@ header nav li a {
 
 .under{
 	padding-bottom: 2px;
-    border-bottom: #1e959d 2px solid;
+	border-bottom: #1e959d 2px solid;
 }
+
+/* end do CSS para o produto */
+
+/* CSS para as features */
 
 .container3 {
 	text-align: center;
 	padding-top: 80px;
 	padding-bottom: 100px;
 	background-color: #2d2f30; 
-    position: absolute;
-    height: 415px;
-    top: 1200px;
-    left: 0; 
-    width: 100%;
-    z-index: 0;
+	position: absolute;
+	height: 415px;
+	top: 1200px;
+	left: 0; 
+	width: 100%;
+	z-index: 0;
 }
 
 .container3 h3 {
@@ -231,31 +244,31 @@ header nav li a {
 }
 
 #im3 {
-	 margin-bottom: 40px;
+	margin-bottom: 40px;
 }
 
 #im4 {
-	 margin-bottom: 55px;
+	margin-bottom: 55px;
 }
 
 #im5 {
-	 margin-bottom: 30px;
+	margin-bottom: 30px;
 }
 
 .btn2 {
 	font-weight: bold;
-    background-color: orange;
-    color: black;
-    padding: 18px 43px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 22px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
+	background-color: orange;
+	color: black;
+	padding: 18px 43px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 22px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
 }
 
 .btn2:hover {
@@ -283,15 +296,19 @@ header nav li a {
 	clear: both;
 }
 
+/* end do CSS para as features */
+
+/* CSS para os testemunhos */
+
 #testemunhos {
 	background-color: white; 
-    text-align: center;
-    position: absolute;
-    height: 600px;
-    top: 1765px;
-    left: 0; 
-    width: 100%;
-    z-index: 0;
+	text-align: center;
+	position: absolute;
+	height: 600px;
+	top: 1765px;
+	left: 0; 
+	width: 100%;
+	z-index: 0;
 }
 
 #testemunhos h2 {
@@ -316,28 +333,108 @@ header nav li a {
 	color: white;
 }
 
-#test1 {
+#testImg {
 	float: left;
 	padding-left: 60px;
 	padding-top: 40px;
 }
 
-.under{
-	padding-bottom: 2px;
-    border-bottom: #1e959d 2px solid;
-}
-
 .container4 {
 	max-width: 1000px;
-  	position: relative;
-  	height: 220px;
- 	margin: auto;
- 	background-color: #1e959d;;
+	position: relative;
+	height: 220px;
+	margin: auto;
+	background-color: #1e959d;;
 }
 
-/* slideshow stuff */
+/* end do CSS para testemunhos */
 
-#aux {
+/* CSS para a imagem de Registo e Login */
+
+#registo-image {
+	text-align: center;
+	position: absolute;
+	margin-top: 100px;
+	margin-bottom: 40px;
+	background: url(../images/couple.png) no-repeat center center;
+	height: 964px;
+	width: 1993px;
+	top: 2480px;
+	left: 0; 
+	width: 100%;
+	z-index: 0;
+}
+
+#registo-image h2 {
+	font-size: 60px;
+	margin-top: 100px;
+	margin-bottom: 40px;
+	color: #1e959d;
+}
+
+#reg {
+	margin-top: 385px;
+	margin-right: 300px;
+	display: inline-block;
+}
+
+#log {
+	display: inline-block;
+}
+
+#regTitle {
+	font-weight: bold;
+	color: white;
+	font-size: 35px;
+	padding-bottom: 100px;
+}
+
+#regTitle2 {
+	font-weight: bold;
+	color: white;
+	font-size: 35px;
+	padding-bottom: 100px;
+}
+
+#pTitle {
+	color: white;
+	font-size: 20px;
+	padding-bottom: 50px;
+}
+
+#pTitle2 {
+	color: white;
+	font-size: 20px;
+	padding-bottom: 70px;
+}
+
+.btn3 {
+	font-weight: bold;
+	background-color: orange;
+	color: black;
+	padding: 18px 43px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 22px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+.btn3:hover {
+	background: gray;
+	cursor: pointer; 
+	transition: background .3s;  
+}
+
+/* end do CSS para a imagem de Registo e Login */
+
+/* Botoes e efeitos de fade para o Slideshow dos testemunhos */
+
+#testLine {
 	padding-right: 160px;
 	padding-top: 85px;
 }
@@ -367,7 +464,7 @@ header nav li a {
 }
 
 .prev:hover, .next:hover {
-	background-color: rgba(0,0,0,0.8);
+	background-color: rgba(0,0,0,0.5);
 }
 
 /* Fading animation */
@@ -388,17 +485,33 @@ header nav li a {
 	to {opacity: 1}
 }
 
-/* slideshow stuff end */
+/* end de botoes e efeitos de fade para o Slideshow dos testemunhos */
+
+/* CSS para os contactos (por fazer) */
 
 #Contactos {
-    text-align: center;
-    position: absolute;
-	top: 2600px;
+	position: absolute;
+	top: 3600px;
 	left: 0; 
-    width: 100%;
-    z-index: 0;
-
+	width: 100%;
+	z-index: 0;
 }
+
+/* end do CSS para os contactos */
+
+/* CSS para o footer (por fazer) */
+
+footer {
+	position: absolute;
+	top: 4000px;
+	left: 0; 
+	width: 100%;
+	z-index: 0;
+}
+
+/* end do CSS para o footer */
+
+/* responsive for tablet */
 
 @media (max-width: 900px) {
 	.container h2 {
@@ -419,9 +532,24 @@ header nav li a {
 		padding: 0 40px;
 	}
 
+	#testemunhos h3 {
+		font-size: 20px;
+		padding: 0 30px;
+	}
+
+	#testemunhos h2 {
+		font-size: 40px;
+		padding: 0 30px;
+	}
+
+	#testemunhos p {
+		font-size: 20px;
+		padding: 0 40px;
+	}
 	
 }
 
+/* responsive for mobile */
 
 @media (max-width: 500px) {
 	.container h2 {
@@ -443,6 +571,21 @@ header nav li a {
 		padding: 0 30px;
 	}
 
+	#testemunhos h3 {
+		font-size: 15px;
+		padding: 0 30px;
+	}
+
+	#testemunhos h2 {
+		font-size: 30px;
+		padding: 0 30px;
+	}
+
+	#testemunhos p {
+		font-size: 15px;
+		padding: 0 30px;
+	}
+
 }
 
-
+/* responsive end */
