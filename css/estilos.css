@@ -523,6 +523,7 @@ header nav li a {
 }
 
 #subject {
+	resize: none;
 	margin-left: 11.5%;
 	border: #1e959d 4px solid;
 }
