@@ -488,7 +488,7 @@ header nav li a {
 
 /* end de botoes e efeitos de fade para o Slideshow dos testemunhos */
 
-/* CSS para os contactos (por fazer) */
+/* CSS para os contactos */
 
 #Contactos {
 	position: absolute;
@@ -542,13 +542,6 @@ header nav li a {
 	cursor: pointer;
 	border-radius: 5px;
 	border: #1e959d 3px solid;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-}
-
-.btn4:hover {
-	cursor: pointer; 
-	transition: background .3s;  
 }
 
 .under2{
