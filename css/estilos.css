@@ -1,6 +1,7 @@
 html, body {
 	margin: 0;
 	padding: 0;
+	overflow-x: hidden;
 }
 
 body {
@@ -99,8 +100,6 @@ header nav {
 nav ul li {
 	float: left;
 	display: inline-block;
-	
-
 }
 
 header nav li a {
