@@ -507,29 +507,37 @@ header nav li a {
 	color: #1e959d;
 }
 
+.formulario {
+	position: absolute;
+	top: 85%;
+	left: 17%;
+}
+
 #name {
 	font-size: 16px;
 	display: inline-block;
 	outline: none;
-	width: 32%;
+	width: 410px;
 }
 
 #e-mail {
 	font-size: 16px;
 	display: inline-block;
 	outline: none;
-	width: 32%;
+	width: 410px;
 	margin-bottom: 60px;
 }
 
 #subject {
+	width: 960px;
+	height: 200px;
 	resize: none;
-	margin-left: 11.5%;
+	margin-left: 13.5%;
 	border: #1e959d 4px solid;
 }
 
 .btn4 {
-	margin-left: 11.5%;
+	margin-left: 13.5%;
 	margin-top: 25px;
 	font-weight: bold;
 	background-color: white;
@@ -563,6 +571,48 @@ footer {
 }
 
 /* end do CSS para o footer */
+
+
+/* responsive for widths larger than tablet and smartphone but smaller than full HD - 1080p */
+
+@media (max-width: 1400px) {
+	.formulario {
+		position:unset !important;
+		top:unset !important;
+		left:0%;
+	}
+
+	#name {
+		width: 405px;
+	}
+
+	#e-mail {
+		width: 405px;
+	}
+
+	#subject {
+		margin-left: 11.5%;
+	}
+
+	.btn4 {
+		margin-left: 11.5%;
+	}
+}
+
+@media (max-width: 1200px) {
+	#name {
+		width: 280px;
+	}
+
+	#e-mail {
+		width: 280px;
+	}
+
+	#subject {
+		width: 860px;
+	}
+
+}
 
 /* responsive for tablet */
 
@@ -599,6 +649,20 @@ footer {
 		font-size: 20px;
 		padding: 0 40px;
 	}
+
+	#name {
+		width: 200px;
+
+	}
+
+	#e-mail {
+		width: 200px;
+	}
+
+	#subject {
+		width: 660px;
+	}
+
 	
 }
 
@@ -637,6 +701,19 @@ footer {
 	#testemunhos p {
 		font-size: 15px;
 		padding: 0 30px;
+	}
+
+	#name {
+		width: 100px;
+
+	}
+
+	#e-mail {
+		width: 100px;
+	}
+
+	#subject {
+		width: 460px;
 	}
 
 }
