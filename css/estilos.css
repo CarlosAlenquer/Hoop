@@ -654,7 +654,7 @@ footer a:visited {
 	background-color:  #2D2F30;
 	color: white;
 	width: 50px;
-	padding: 8px 13.5px;
+	padding: 15px 13.5px;
 	text-align: left;
 	text-decoration: none;
 	display: inline-block;
@@ -749,7 +749,31 @@ input[type="email2"]:-ms-input-placeholder {
 	}
 
 	#subject {
-		width: 860px;
+		width: 660px;
+	}
+
+	#reg {
+		margin-right: 280px;
+	}
+
+	#registo-image h2 {
+		font-size: 40px;
+	}
+
+	#regTitle {
+		font-size: 25px;
+	}
+
+	#regTitle2 {
+		font-size: 25px;
+	}
+
+	#pTitle {
+		font-size: 15px;
+	}
+
+	#pTitle2 {
+		font-size: 15px;
 	}
 
 	footer {
@@ -817,6 +841,30 @@ input[type="email2"]:-ms-input-placeholder {
 		padding: 0 40px;
 	}
 
+	#registo-image h2 {
+		font-size: 40px;
+	}
+
+	#reg {
+		margin-right: 200px;
+	}
+
+	#regTitle {
+		font-size: 25px;
+	}
+
+	#regTitle2 {
+		font-size: 25px;
+	}
+
+	#pTitle {
+		font-size: 15px;
+	}
+
+	#pTitle2 {
+		font-size: 15px;
+	}
+
 	#Contactos h2 {
 		font-size: 40px;
 		padding: 0 30px;
@@ -831,7 +879,7 @@ input[type="email2"]:-ms-input-placeholder {
 	}
 
 	#subject {
-		width: 660px;
+		width: 600px;
 	}
 
 	footer {
@@ -898,6 +946,26 @@ input[type="email2"]:-ms-input-placeholder {
 	#testemunhos p {
 		font-size: 15px;
 		padding: 0 30px;
+	}
+
+	#reg {
+		margin-right: 0px;
+	}
+
+	#regTitle {
+		font-size: 25px;
+	}
+
+	#regTitle2 {
+		font-size: 25px;
+	}
+
+	#pTitle {
+		font-size: 15px;
+	}
+
+	#pTitle2 {
+		font-size: 15px;
 	}
 
 	#Contactos h2 {
