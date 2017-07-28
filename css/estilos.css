@@ -28,7 +28,7 @@ h1 {
 
 h1 a {
 	display : block;
-	height : 113px;
+	height : 60px;
 	text-indent : -9999px; 
 }
 
@@ -559,16 +559,137 @@ header nav li a {
 
 /* end do CSS para os contactos */
 
-/* CSS para o footer (por fazer) */
+/* CSS para o footer */
 
 footer {
+	background-color: #2D2F30;
 	position: absolute;
-	top: 4500px;
+	top: 4360px;
 	left: 0; 
+	height: 210px;
 	width: 100%;
 	z-index: 0;
+	padding-top: 60px;
 }
 
+#logo {
+	position: relative;
+	top: -105px;
+	display: inline-block;
+}
+
+footer h2 {
+	text-decoration: none;
+	background: url(../images/logo_hoop.png) no-repeat center center;
+	background-size: contain;
+	width: 137px;
+	margin-left: 200px;
+	color: white;
+}
+
+footer h2 a {
+	position: relative;
+	display : block;
+	height: 60px;
+	text-indent : -9999px; 
+
+}
+
+footer nav {
+	color: white;
+	display: inline-block;
+}
+
+/* cor dos 'a href' (para remover o 'underline', a cor azul e a cor de depois de visitado sempre para branco) */
+footer a:link {
+	color: white;
+	text-decoration: none;
+}
+
+footer a:visited { 
+	color: white;
+}
+/* fim da cor dos 'a href' */
+
+#prod {
+	font-size: 16px;
+	margin-left: 250px;
+}
+
+#social {
+	position: absolute;
+	margin-left: 180px;
+}
+
+#social li {
+	margin: 0 10px 0 0;
+}
+
+#social2 {
+	position: absolute;
+	right: 100px;
+	margin-left: 250px;
+}
+
+#newsletter {
+	padding-bottom: 10px;
+}
+
+.subscribe-input {
+	margin-top: 15px;
+	background-color: #2D2F30;
+	color: white;
+	width: 370px;
+	height: 30px;
+	padding: 8px 40px;
+	text-align: left;
+	text-decoration: none;
+	font-size: 14px;
+	border-radius: 5px;
+	border: white 1px solid;
+	display: inline-block;
+}
+
+.subscribe-submit {
+	background-color:  #2D2F30;
+	color: white;
+	width: 50px;
+	padding: 8px 13.5px;
+	text-align: left;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	cursor: pointer;
+	border-radius: 5px;
+	border: white 1px solid;
+}
+
+#others {
+	padding-top: 40px;
+	margin-left: 130px;
+	font-size: 9px;
+}
+
+#others li {
+	margin: 0 15px 0 0;
+}
+
+/* cor do placeholder (deste modo conseguimos colocar a cor do placeholder da newsletter a branco) */
+input[type="email2"]::-webkit-input-placeholder {
+	color: white !important;
+}
+
+input[type="email2"]:-moz-placeholder { /* Firefox 18- */
+	color: white !important;  
+}
+
+input[type="email2"]::-moz-placeholder {  /* Firefox 19+ */
+	color: white !important;  
+}
+
+input[type="email2"]:-ms-input-placeholder {  
+	color: white !important;  
+}
 /* end do CSS para o footer */
 
 
@@ -596,6 +717,26 @@ footer {
 	.btn4 {
 		margin-left: 11.5%;
 	}
+
+	footer {
+		padding-top: 40px;
+	}
+
+	footer h2 {
+		margin-left: 10px;
+	}
+
+	#prod {
+		margin-left: 100px;
+	}
+
+	#social {
+		margin-left: 90px;
+	}
+
+	#social2 {
+		right: 10px;
+	}
 }
 
 @media (max-width: 1200px) {
@@ -611,6 +752,33 @@ footer {
 		width: 860px;
 	}
 
+	footer {
+		padding-top: 40px;
+	}
+
+	footer h2 {
+		margin-left: 10px;
+	}
+
+	#prod {
+		margin-left: 10px;
+	}
+
+	#social {
+		margin-left: 10px;
+	}
+
+	#social2 {
+		right: 2px;
+	}
+
+	.subscribe-input {
+		width: 150px;
+	}
+
+	#others {
+		margin-left: 0px;
+	}
 }
 
 /* responsive for tablet */
@@ -656,7 +824,6 @@ footer {
 
 	#name {
 		width: 200px;
-
 	}
 
 	#e-mail {
@@ -664,10 +831,36 @@ footer {
 	}
 
 	#subject {
-		width: 560px;
+		width: 660px;
 	}
 
-	
+	footer {
+		padding-top: 40px;
+	}
+
+	footer h2 {
+		margin-left: 5px;
+	}
+
+	#prod {
+		margin-left: 5px;
+	}
+
+	#social {
+		margin-left: 5px;
+	}
+
+	#social2 {
+		right: -10px;
+	}
+
+	.subscribe-input {
+		width: 150px;
+	}
+
+	#others {
+		margin-left: 0px;
+	}
 }
 
 /* responsive for mobile */
@@ -714,7 +907,6 @@ footer {
 	
 	#name {
 		width: 100px;
-
 	}
 
 	#e-mail {
@@ -725,6 +917,38 @@ footer {
 		width: 460px;
 	}
 
+	footer {
+		padding-top: 40px;
+	}
+
+	footer h2 {
+		margin-left: 10px;
+	}
+
+	#prod {
+		margin-left: 40px;
+		font-size: 12px;
+	}
+
+	#social {
+		margin-left: 90px;
+		font-size: 12px;
+	}
+
+	#social2 {
+		margin-top: 75px;
+		font-size: 11px;
+		right: 5px;
+	}
+
+	.subscribe-input {
+		font-size: 12px;
+		width: 50px;
+	}
+
+	#others {
+		margin-left: -250px;
+	}
 }
 
 /* responsive end */
