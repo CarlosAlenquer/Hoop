@@ -46,7 +46,6 @@ div .menu1{
 
 .menu1 nav ul a {
 	margin-left: 60px;
-
 }
 
 div .menu2 {
@@ -695,6 +694,20 @@ input[type="email2"]:-ms-input-placeholder {
 
 /* responsive for widths larger than tablet and smartphone but smaller than full HD - 1080p */
 
+@media (min-width: 1400px) {
+	div .menu1{
+		margin-left: 280px;
+	}
+
+	#space {
+		margin-left: 27%;
+	}
+
+	#space2 {
+		margin-left: 80%;
+	}
+}
+
 @media (max-width: 1400px) {
 	.formulario {
 		position:unset !important;
@@ -740,6 +753,28 @@ input[type="email2"]:-ms-input-placeholder {
 }
 
 @media (max-width: 1200px) {
+
+	div .menu1{
+		margin-left: -10px;
+	}
+
+	.menu1 nav ul a {
+		margin-left: 20px;
+
+	}
+
+	#space {
+		margin-left: 7%;
+	}
+
+	#space2 {
+		margin-left: 67%;
+	}
+
+	.container3 p {
+		font-size: 14px;
+	}
+
 	#name {
 		width: 280px;
 	}
@@ -806,12 +841,18 @@ input[type="email2"]:-ms-input-placeholder {
 }
 
 /* responsive for tablet */
+/* colocar aqui o menu hamburger para as resolucoes de largura menor que 900px */
 
 @media (max-width: 900px) {
+	.container3 p {
+		font-size: 12px;
+	}
+
 	.container h2 {
 		font-size: 70px;
 		padding: 0 40px;
 	}
+	
 	.container p {
 		font-size: 35px;
 		padding: 0 30px;
