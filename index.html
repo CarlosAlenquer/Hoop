@@ -3,6 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <script src="js/slideshow.js"></script>
+  <script src="js/checkform.js"></script>
   <link rel='stylesheet' type='text/css' href='css/reset.css'/>
   <link rel='stylesheet' type='text/css' href='css/estilos.css'/>
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway"/>
@@ -144,17 +145,17 @@
       <div class="formulario">
         <form action="" method="get">
 
-          <span class="under2"><input style="border:none" type="text" id="name" name="name" placeholder="Nome*"></span>
+          <span class="under2"><input style="border:none" type="text" id="name" name="name" placeholder="Nome*" required=""></span>
 
-          <span class="under2"><input style="border:none" type="email" id="e-mail" name="e-mail" placeholder="E-mail*"></span>
+          <span class="under2"><input style="border:none" type="email" id="e-mail" name="e-mail" placeholder="E-mail*" required></span>
 
           <br>
           
-          <textarea id="subject" name="subject"></textarea>
+          <textarea id="subject" name="subject" required></textarea>
 
           <br>
 
-          <input class="btn4" type="submit" value="ENVIAR">
+          <input class="btn4" type="submit" value="ENVIAR" onclick="checkForm()">
 
         </div>
       </form>
