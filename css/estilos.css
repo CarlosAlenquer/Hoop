@@ -692,7 +692,7 @@ input[type="email2"]:-ms-input-placeholder {
 /* end do CSS para o footer */
 
 
-/* responsive for widths larger than tablet and smartphone but smaller than full HD - 1080p */
+/* responsive for widths that are full HD or larger - 1080p */
 
 @media (min-width: 1400px) {
 	div .menu1{
@@ -775,6 +775,33 @@ input[type="email2"]:-ms-input-placeholder {
 		font-size: 12px;
 	}
 
+	.feature-1 {
+		width: 225px;
+	}
+
+	.feature-2 {
+		width: 225px;
+	}
+
+	.feature-3 {
+		width: 225px;
+	}
+
+	#im3 {
+		height: 100px;
+		width: 240px;
+	}
+
+	#im4 {
+		height: 70px;
+		width: 80px;
+	}
+
+	#im5 {
+		height: 100px; 
+		width: 240px;
+	}
+
 	#name {
 		width: 280px;
 	}
@@ -846,6 +873,33 @@ input[type="email2"]:-ms-input-placeholder {
 @media (max-width: 900px) {
 	.container3 p {
 		font-size: 12px;
+	}
+
+	.feature-1 {
+		width: 180px;
+	}
+
+	.feature-2 {
+		width: 180px;
+	}
+
+	.feature-3 {
+		width: 180px;
+	}
+
+	#im3 {
+		height: 70px;
+		width: 180px;
+	}
+
+	#im4 {
+		height: 70px;
+		width: 80px;
+	}
+
+	#im5 {
+		height: 100px; 
+		width: 240px;
 	}
 
 	.container h2 {
