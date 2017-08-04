@@ -115,6 +115,9 @@ header nav li a {
 #heroimage {
 	background: url(../images/heroimage.jpg) no-repeat center center; 
 	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
 	height: 800px;
 	text-align: center;
 	position: absolute;
@@ -356,6 +359,9 @@ header nav li a {
 	margin-top: 100px;
 	margin-bottom: 40px;
 	background: url(../images/couple.png) no-repeat center center;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
 	height: 964px;
 	width: 1993px;
 	top: 2480px;
